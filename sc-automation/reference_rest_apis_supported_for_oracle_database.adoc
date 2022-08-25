@@ -1,0 +1,115 @@
+---
+permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+sidebar: sidebar 
+keywords: REST APIs, oracle database 
+summary: Beschreibt die von der Oracle Database unterstützten REST-APIs-Workflows 
+---
+= REST-APIs werden für Oracle Database unterstützt
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die Oracle Datenbank verwendet REST-APIs, um die folgenden Operationen auszuführen:
+
+
+
+== Anmeldedaten
+
+* Registrieren Sie die Anmeldedaten für den SnapCenter-Server
+* Abrufen der mit SnapCenter-Server registrierten Anmeldedaten
+* Anmeldedaten nach Namen abrufen
+* Anmeldedaten ändern
+* Anmeldedaten löschen
+
+
+
+
+== Host
+
+* Fügen Sie Host hinzu
+* Entfernen Sie einen oder mehrere Hosts aus SnapCenter
+* Rufen Sie einen Host nach Namen ab
+
+
+
+
+== Plug-in
+
+* Installation von Plug-ins auf vorhandenem Host
+* Upgrade Plug-in
+
+
+
+
+== Richtlinie
+
+* Erstellen einer neuen Richtlinie
+* Richtlinie nach Namen abrufen
+* Richtlinie ändern
+* Löschen der Richtlinie
+
+
+
+
+== Ressourcengruppen
+
+* Ressourcengruppe schützen
+* Schutz ändern
+* Schutz entfernen
+* Neue Ressourcengruppe erstellen
+* Ressourcengruppe nach Namen abrufen
+* Ressourcengruppe ändern
+* Ressourcengruppe löschen
+
+
+
+
+== Ressourcen
+
+* Erkennen von Datenbanken
+* Konfigurieren Sie die Datenbank
+
+
+
+
+== Backups
+
+* Starten Sie eine Ressourcensicherung
+* Starten Sie einen Sicherungsvorgang
+* Abrufen von Backups nach Namen
+* Abrufen von Backups
+* Löschen Sie ein Backup mit Namen
+
+
+
+
+== Wiederherstellen
+
+* Stellen Sie ein Backup wieder her
+
+
+
+
+== Klonaktualisierung
+
+* Erstellen Sie eine Oracle Database Clone Specification aus einem angegebenen Backup
+* Anzeigen, Ändern und Löschen von klonspezifischen Dateien
+* Klonaktualisierung
+
+
+
+
+== RBAC
+
+* Weisen Sie einem Benutzer oder einer Gruppe Ressourcen zu
+* Heben Sie die Zuweisung von Ressourcen zu einem Benutzer oder einer Gruppe auf
+
+
+
+
+== Konfigurationseinstellungen
+
+* Abrufen und Ändern von Konfigurationseinstellungen
+

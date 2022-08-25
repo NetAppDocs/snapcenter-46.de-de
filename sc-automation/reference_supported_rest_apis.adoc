@@ -1,0 +1,220 @@
+---
+permalink: sc-automation/reference_supported_rest_apis.html 
+sidebar: sidebar 
+keywords: REST API categories 
+summary: Die über die SnapCenter REST API verfügbaren Ressourcen sind nach Kategorien sortiert, die auf der Dokumentationsseite der SnapCenter-API angezeigt werden. 
+---
+= REST-APIs werden für andere Plug-ins unterstützt
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Die über die SnapCenter REST API verfügbaren Ressourcen sind nach Kategorien sortiert, die auf der Dokumentationsseite der SnapCenter-API angezeigt werden. Nachfolgend finden Sie eine kurze Beschreibung der einzelnen Ressourcen mit den grundlegenden Ressourcenpfaden sowie weitere Nutzungsüberlegungen.
+
+
+
+== Auth
+
+Sie können diesen API-Aufruf verwenden, um sich beim SnapCenter-Server anzumelden. Diese API gibt ein Benutzerautorisierungs-Token zurück, das zur Authentifizierung weiterer Anforderungen verwendet wird.
+
+
+
+== Domänen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Rufen Sie alle Domänen ab
+* Abrufen von Details einer bestimmten Domäne
+* Registrieren oder Aufheben der Registrierung einer Domain
+* Ändern einer Domäne
+
+
+
+
+== Jobs
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Rufen Sie alle Jobs ab
+* Abrufen des Status eines Jobs
+* Einen Job abbrechen oder beenden
+
+
+
+
+== Einstellungen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Registrieren, Anzeigen, Ändern oder Entfernen von Anmeldeinformationen
+* Benachrichtigungseinstellungen konfigurieren
+
+
+
+
+== Hosts
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen der Host-Details
+* Abrufen der Details des installierten Plug-ins und der zugehörigen Ressourcen
+* Hinzufügen, Entfernen oder Ändern eines Plug-in-Hosts
+* Plug-ins installieren oder aktualisieren
+
+
+
+
+== Ressourcen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Ressourcen
+* Ressourcen erstellen, ändern oder entfernen
+* Schützen Sie eine Ressource
+* Sichern, Wiederherstellen oder Klonen von Ressourcen
+
+
+
+
+== Backups
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Rufen Sie Backup-Details ab
+* Backups umbenennen oder löschen
+
+
+
+
+== Klone
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Klondetails
+* Klone löschen
+
+
+
+
+== Klonesplit
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen des Status eines geteilten Klonvorgangs
+* Starten oder stoppen Sie einen Klon-Split-Vorgang
+
+
+
+
+== Ressourcengruppen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Details einer Ressourcengruppe
+* Erstellen, Ändern oder Löschen einer Ressourcengruppe
+* Sichern einer Ressourcengruppe
+
+
+
+
+== Richtlinien
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Richtliniendetails
+* Erstellen, Ändern oder Löschen von Richtlinien
+
+
+
+
+== Storage
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Storage-Details
+* Erstellen, Ändern oder Löschen von Speicher
+* Entdecken Sie Ressourcen auf einem Storage
+* Erstellen oder löschen Sie eine Freigabe auf dem Speicher
+
+
+
+
+== Share
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Rufen Sie die Details einer Freigabe ab
+* Erstellen oder löschen Sie eine Freigabe auf dem Speicher
+
+
+
+
+== Plug-Ins
+
+Mit diesen API-Aufrufen können Sie alle Plug-ins auf einem Host abrufen und verschiedene Vorgänge durchführen.
+
+
+
+== Berichte An
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Erstellung von Berichten für Backup, Restore, Klonen und Plug-in
+* Hinzufügen, Ausführen, Löschen oder Ändern von Zeitplänen
+
+
+
+
+== Meldungen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Rufen Sie alle Meldungen ab
+* Meldungen löschen
+
+
+
+
+== Rbac
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Abrufen von Details zu Benutzern, Gruppen und Rollen
+* Benutzer hinzufügen
+* Erstellen, Ändern oder Löschen von Rollen
+* Rollen und Gruppen zuweisen oder deren Zuordnung aufheben
+
+
+
+
+== Konfiguration
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Zeigen Sie die Konfigurationseinstellungen an
+* Ändern Sie die Konfigurationseinstellungen
+
+
+
+
+== Zertifikateinstellungen
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Zeigen Sie den Zertifikatsstatus an
+* Ändern Sie die Zertifikatseinstellungen
+
+
+
+
+== Repository
+
+Sie können die folgenden API-Aufrufe verwenden:
+
+* Sicherung und Wiederherstellung des NSM-Repositorys
+* Schutz und Schutz des NSM-Repositorys
+* Failover
+* Stellen Sie das NSM-Repository wieder her
+
