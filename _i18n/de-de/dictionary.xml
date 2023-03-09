@@ -7795,4 +7795,8 @@
   <block id="4574736625a206c36aa88ccb73fced3e" category="list-text"><block ref="9968070f531307f6dc7d65233ad2073f" prefix="" category="inline-code"></block></block>
   <block id="0d51371cbb850772d2130a36f4368df4" category="paragraph">MetroCluster zeigen</block>
   <block id="cab00f169fcfeb601710dd89ecbfedf0" category="admonition">Sie sollten den Aufbewahrungswert auf 2 oder höher einstellen. Der Mindestwert für die Aufbewahrungsanzahl beträgt 2.</block>
+  <block id="04f76259e3406e39f106d09b85354906" category="inline-link">Bei Backups mit SnapCenter für Exchange wird nur die Hälfte der Snapshots auf dem Ziel-Log-Volume von Vault gespeichert</block>
+  <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">Erstellen Sie beim Umgang mit Exchange Volumes (LUNs) separate Vault-Richtlinien für Protokolle und Datenbanken, und setzen Sie die Keep (Retention) für die Protokollrichtlinie auf die doppelte Anzahl für jedes Label wie die Datenbankrichtlinie unter Verwendung derselben Labels. Weitere Informationen finden Sie unter:<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>.</block>
+  <block id="e8db8241188813a9c299f2730ff21c40" category="admonition">Stellen Sie beim Wiederherstellen von Kontrolldateien sicher, dass die Verzeichnisstruktur entweder vorhanden ist oder mit dem korrekten Benutzer- und Gruppeneigentum erstellt werden soll, falls vorhanden, damit die Dateien durch den Wiederherstellungsvorgang an den Zielspeicherort kopiert werden können. Wenn das Verzeichnis nicht vorhanden ist, schlägt der Wiederherstellungsauftrag fehl.</block>
+  <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java wird nicht unterstützt.</block>
 </blocks>
