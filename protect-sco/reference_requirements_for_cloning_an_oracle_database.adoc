@@ -74,4 +74,5 @@ NOTE: Sie können die neuen geklonten Mount-Punkte manuell mit dem Autofs-Subsys
 * Sie sollten den Wert von use_lvmetad = 0 in _/etc/lvm/lvm.conf setzen und den lvm2-lvmetad-Service beenden, um erfolgreich ein Klonen in SAN-Umgebungen (Storage Area Network) unter Oracle Linux 7 oder höher oder Red hat Enterprise Linux (RHEL) 7 oder höher durchzuführen.
 * Sie sollten den Oracle-Patch 13366202 installieren, wenn Sie die Oracle-Datenbank 11.2.0.3 oder höher verwenden und die Datenbank-ID für die Hilfsinstanz mit einem NID-Skript geändert wird.
 * Sie sollten sicherstellen, dass die Aggregate, die die Volumes hosten, sich in der Liste der zugewiesenen Aggregate der Storage Virtual Machine (SVM) befinden.
+* Sie sollten sicherstellen, dass die LUN nicht dem AIX-Host mit iGroup zugeordnet ist, die aus gemischten Protokollen iSCSI und FC besteht. Weitere Informationen finden Sie unter https://kb.netapp.com/mgmt/SnapCenter/SnapCenter_Plug-in_for_Oracle_operations_fail_with_error_Unable_to_discover_the_device_for_LUN_LUN_PATH["Der Vorgang schlägt fehl, da der Fehler nicht in der Lage ist, das Gerät für die LUN zu ermitteln"^].
 
