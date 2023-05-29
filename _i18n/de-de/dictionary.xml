@@ -1600,8 +1600,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">Stellen Sie sicher, dass die Felder Endpoints, Identifikatoren und Signatur ausgefüllt sind.</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">Die SnapCenter MFA-Funktion kann auch über REST-APIs aktiviert werden.</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">Schließen Sie nach dem Aktivieren, Aktualisieren oder Deaktivieren der MFA-Einstellungen in SnapCenter alle Browser-Registerkarten und öffnen Sie einen Browser erneut, um sich erneut anzumelden. Dadurch werden die vorhandenen oder aktiven Session-Cookies gelöscht.</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">Bei der SnapCenter-Anmeldung in mehreren Registerkarten ist ein MFA-Fehler aufgetreten</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">Informationen zur Fehlerbehebung finden Sie unter <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">AD FS MFA-Metadaten aktualisieren</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">Sie sollten die AD FS MFA-Metadaten in SnapCenter aktualisieren, sobald es Änderungen im AD FS-Server gibt, wie z. B. Upgrade, CA-Zertifikatverlängerung, DR usw.</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">Kopieren Sie die heruntergeladene Datei auf SnapCenter-Server, um die MFA-Konfiguration zu aktualisieren.</block>
@@ -7801,4 +7799,6 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java wird nicht unterstützt.</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">Der Vorgang schlägt fehl, da der Fehler nicht in der Lage ist, das Gerät für die LUN zu ermitteln</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">Sie sollten sicherstellen, dass die LUN nicht dem AIX-Host mit iGroup zugeordnet ist, die aus gemischten Protokollen iSCSI und FC besteht. Weitere Informationen finden Sie unter<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link">Bei der SnapCenter-Anmeldung auf mehreren Registerkarten wird ein MFA-Fehler angezeigt</block>
+  <block id="3954e6d000a63f90d0486b1a391b0efd" category="paragraph">Informationen zur Fehlerbehebung finden Sie unter<block ref="75a1f4f9379e192498c16a8577967f33" category="inline-link-rx"></block></block>
 </blocks>
